@@ -1,0 +1,19 @@
+{
+  "mpoa": {
+    "modifier": "MPOA",
+    "trials_scored": 40,
+    "best_trial": 10,
+    "refusals": 25,
+    "kl_divergence": 0.0262,
+    "log": "out/heretic_mpoa_35b.log"
+  },
+  "ara": {
+    "modifier": "ARA",
+    "trials_scored": 40,
+    "best_trial": 36,
+    "refusals": 0,
+    "kl_divergence": 0.5427,
+    "log": "out/heretic_ara_35b.log"
+  },
+  "_source": "per-trial scores parsed from the Heretic run logs; the exported checkpoint is the restored best trial"
+}

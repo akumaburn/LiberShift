@@ -1,0 +1,803 @@
+{
+  "rotation_s2": {
+    "strength": 2.0,
+    "atoms": 35043,
+    "edit": {
+      "changed_sq_norm": 82.07066279649734,
+      "edited_family_sq_norm": 332842.3702392578,
+      "relative_change": 0.015702712068595415
+    },
+    "refusal_100": {
+      "n": 100,
+      "refusals": 17,
+      "refusal_rate": 0.17,
+      "opening_refusals": 12,
+      "opening_refusal_rate": 0.12,
+      "mean_response_chars": 519.36
+    },
+    "heldout_300": {
+      "n": 300,
+      "refusals": 55,
+      "refusal_rate": 0.18333333333333332,
+      "opening_refusals": 36,
+      "opening_refusal_rate": 0.12,
+      "mean_response_chars": 540.6266666666667
+    },
+    "kl_divergence": 0.06140419840812683,
+    "perplexity_wikitext2": 11.602961540222168,
+    "activation_ratio": {
+      "n": 200,
+      "mean": -0.42123186588287354,
+      "median": 0.08020193129777908,
+      "min": -83.19428253173828,
+      "max": 28.749221801757812,
+      "within_20pct": 0.03999999910593033
+    },
+    "down_top_token_changed": 157,
+    "down_top_token_changed_fraction": 0.785,
+    "examples": [
+      {
+        "layer": 18,
+        "feature": 2120,
+        "load": 2.174194812774658,
+        "before": [
+          "\u00e4\u00b8\u012f\u00e5\u0143\u013a\u00e5\u013e\u00a8",
+          "\u0120neither",
+          "\u00e5\u00ae\u012e\u00e5\u0127\u00a8\u00e6\u00b2\u00a1\u00e6\u013e\u012b",
+          "\u00e6\u013a\u00af\u00e4\u00b8\u012f\u00e5\u0131\u00af\u00e8\u0125\u00bd",
+          "\u00e9\u0125\u00bd\u00e4\u00b8\u012f\u00e4\u00bc\u013c"
+        ],
+        "after": [
+          "\u00e7\u013e\u012d\u00e4\u00b8\u012f\u00e5\u0129\u00ba",
+          "\u00e4\u00b8\u012f\u00e5\u0143\u013a\u00e5\u013e\u00a8",
+          "\u00e4\u00b8\u012f\u00e5\u0129\u00ba\u00e6\u013f\u00a5",
+          "\u0120neither",
+          "\u00e4\u00b8\u012f\u00e7\u0132\u0128"
+        ]
+      },
+      {
+        "layer": 22,
+        "feature": 2869,
+        "load": 1.3152483701705933,
+        "before": [
+          "\u0120apologize",
+          "\u0120sorry",
+          "\u0120apologies",
+          "\u0120apology",
+          "\u0120apologise"
+        ],
+        "after": [
+          "\u0120apologize",
+          "\u0120sorry",
+          "\u0120apology",
+          "\u0120apologies",
+          "\u0120apologise"
+        ]
+      },
+      {
+        "layer": 21,
+        "feature": 47,
+        "load": 1.185522437095642,
+        "before": [
+          "\u0120unfortunately",
+          "\u00e9\u0123\u0139\u00e6\u0128\u00be",
+          "\u0120sadly",
+          "\u0120regret",
+          "\u0120sorry"
+        ],
+        "after": [
+          "\u0120unfortunately",
+          "\u00e9\u0123\u0139\u00e6\u0128\u00be",
+          "\u0120sadly",
+          "\u0120regret",
+          "\u0120sorry"
+        ]
+      },
+      {
+        "layer": 17,
+        "feature": 47,
+        "load": 1.1459294557571411,
+        "before": [
+          "\u0120declined",
+          "\u0120canceled",
+          "\u0120rejected",
+          "\u00e4\u00b8\u012f\u00e4\u00ba\u012a",
+          "\u0120invalid"
+        ],
+        "after": [
+          "\u00e6\u0142\u0130",
+          ".maps",
+          "\u00e6\u013c\u00ae",
+          "-dismiss",
+          ".GetAsync"
+        ]
+      },
+      {
+        "layer": 15,
+        "feature": 6637,
+        "load": 0.7855361700057983,
+        "before": [
+          "\u0120safely",
+          "\u0120safe",
+          "\u0120safety",
+          "\u00e5\u00ae\u012b\u00e5\u0127\u00a8",
+          "safe"
+        ],
+        "after": [
+          "\u0120safely",
+          "\u0120safe",
+          "\u00e5\u00ae\u012b\u00e5\u0127\u00a8",
+          "imax",
+          "\u0120safety"
+        ]
+      },
+      {
+        "layer": 17,
+        "feature": 4377,
+        "load": 0.619219183921814,
+        "before": [
+          "\u0120deton",
+          "\u00e6\u00af\u0123\u00e7\u0123\u0143",
+          "\u0120extinct",
+          "\u00e6\u0133\u00a7\u00e6\u00af\u0123",
+          ">null"
+        ],
+        "after": [
+          "aticon",
+          "\u00e7\u0126\u013c",
+          "\u0120deton",
+          "\u00e6\u0134\u0140\u00e5\u0129\u00bb",
+          "icts"
+        ]
+      },
+      {
+        "layer": 17,
+        "feature": 3469,
+        "load": 0.615220308303833,
+        "before": [
+          "\u00e4\u00bb\u0127\u00e4\u00be\u013d",
+          "\u0120Hire",
+          "_only",
+          "only",
+          "\u00e5\u0131\u00aa\u00e8\u0125\u00bd"
+        ],
+        "after": [
+          "emode",
+          "\u0120Hire",
+          "\u00d1\u0123\u00d0\u00b0\u00d0\u00bb",
+          "usercontent",
+          "\u00e4\u00bb\u0127\u00e4\u00be\u013d"
+        ]
+      },
+      {
+        "layer": 17,
+        "feature": 1025,
+        "load": 0.4353906810283661,
+        "before": [
+          "\u0120note",
+          "\u0120Note",
+          "note",
+          "Note",
+          "\u0120NOTE"
+        ],
+        "after": [
+          "\u0120note",
+          "\u0120Note",
+          "note",
+          "Note",
+          "\u0120NOTE"
+        ]
+      },
+      {
+        "layer": 27,
+        "feature": 6691,
+        "load": 0.3658922612667084,
+        "before": [
+          "\u0120INTER",
+          "\u0120PRIMARY",
+          "\u0120GROUP",
+          "\u0120INDEX",
+          "\u0120DEFAULT"
+        ],
+        "after": [
+          "\u0120INTER",
+          "\u0120PRIMARY",
+          "\u0120INDEX",
+          "\u0120GROUP",
+          "\u0120ORDER"
+        ]
+      },
+      {
+        "layer": 21,
+        "feature": 2942,
+        "load": 0.31262099742889404,
+        "before": [
+          "\u0120none",
+          "\u0120no",
+          "\u0120neither",
+          "\u0120nothing",
+          "\u0120nowhere"
+        ],
+        "after": [
+          "\u0120none",
+          "\u0120no",
+          "\u0120neither",
+          "\u0120nowhere",
+          "\u0120nothing"
+        ]
+      },
+      {
+        "layer": 22,
+        "feature": 742,
+        "load": 0.3007363975048065,
+        "before": [
+          "\u00e8\u0122\u00b6",
+          "\u0120OH",
+          "OH",
+          "\u0120oh",
+          "\u0120Oh"
+        ],
+        "after": [
+          "\u00e8\u0122\u00b6",
+          "\u0120OH",
+          "OH",
+          "\u0120oh",
+          "\u0120Oh"
+        ]
+      },
+      {
+        "layer": 26,
+        "feature": 416,
+        "load": 0.2738748788833618,
+        "before": [
+          "\u00e6\u00ac\u00ba\u00e9\u00aa\u0139",
+          "\u0120fake",
+          "\u00e9\u00aa\u0139",
+          "\u00e4\u00bc\u00aa",
+          "\u00e5\u0123\u00b7"
+        ],
+        "after": [
+          "\u00e6\u00ac\u00ba\u00e9\u00aa\u0139",
+          "\u0120fake",
+          "\u00e9\u00aa\u0139",
+          "\u00e5\u0123\u00b7",
+          "\u00e4\u00bc\u00aa"
+        ]
+      }
+    ]
+  },
+  "removal_s1": {
+    "strength": 1.0,
+    "atoms": 35043,
+    "edit": {
+      "changed_sq_norm": 20.548838479444385,
+      "edited_family_sq_norm": 332842.3702392578,
+      "relative_change": 0.007857318108846267
+    },
+    "refusal_100": {
+      "n": 100,
+      "refusals": 52,
+      "refusal_rate": 0.52,
+      "opening_refusals": 46,
+      "opening_refusal_rate": 0.46,
+      "mean_response_chars": 634.29
+    },
+    "heldout_300": {
+      "n": 300,
+      "refusals": 131,
+      "refusal_rate": 0.43666666666666665,
+      "opening_refusals": 106,
+      "opening_refusal_rate": 0.35333333333333333,
+      "mean_response_chars": 605.1233333333333
+    },
+    "kl_divergence": 0.019708694890141487,
+    "perplexity_wikitext2": 11.56265640258789,
+    "activation_ratio": {
+      "n": 200,
+      "mean": -0.10513190925121307,
+      "median": 0.23545241355895996,
+      "min": -60.82109069824219,
+      "max": 25.316608428955078,
+      "within_20pct": 0.05000000074505806
+    },
+    "down_top_token_changed": 134,
+    "down_top_token_changed_fraction": 0.67,
+    "examples": [
+      {
+        "layer": 18,
+        "feature": 2120,
+        "load": 2.174194812774658,
+        "before": [
+          "\u00e4\u00b8\u012f\u00e5\u0143\u013a\u00e5\u013e\u00a8",
+          "\u0120neither",
+          "\u00e5\u00ae\u012e\u00e5\u0127\u00a8\u00e6\u00b2\u00a1\u00e6\u013e\u012b",
+          "\u00e6\u013a\u00af\u00e4\u00b8\u012f\u00e5\u0131\u00af\u00e8\u0125\u00bd",
+          "\u00e9\u0125\u00bd\u00e4\u00b8\u012f\u00e4\u00bc\u013c"
+        ],
+        "after": [
+          "\u00e4\u00b8\u012f\u00e5\u0143\u013a\u00e5\u013e\u00a8",
+          "\u0120neither",
+          "\u00e4\u00b8\u012f\u00e5\u0129\u00ba\u00e6\u013f\u00a5",
+          "\u00e5\u00ae\u012e\u00e5\u0127\u00a8\u00e6\u00b2\u00a1\u00e6\u013e\u012b",
+          "\u00e7\u013e\u012d\u00e4\u00b8\u012f\u00e5\u0129\u00ba"
+        ]
+      },
+      {
+        "layer": 22,
+        "feature": 2869,
+        "load": 1.3152483701705933,
+        "before": [
+          "\u0120apologize",
+          "\u0120sorry",
+          "\u0120apologies",
+          "\u0120apology",
+          "\u0120apologise"
+        ],
+        "after": [
+          "\u0120apologize",
+          "\u0120sorry",
+          "\u0120apology",
+          "\u0120apologies",
+          "\u0120apologise"
+        ]
+      },
+      {
+        "layer": 21,
+        "feature": 47,
+        "load": 1.185522437095642,
+        "before": [
+          "\u0120unfortunately",
+          "\u00e9\u0123\u0139\u00e6\u0128\u00be",
+          "\u0120sadly",
+          "\u0120regret",
+          "\u0120sorry"
+        ],
+        "after": [
+          "\u0120unfortunately",
+          "\u00e9\u0123\u0139\u00e6\u0128\u00be",
+          "\u0120sadly",
+          "\u0120regret",
+          "\u0120sorry"
+        ]
+      },
+      {
+        "layer": 17,
+        "feature": 47,
+        "load": 1.1459294557571411,
+        "before": [
+          "\u0120declined",
+          "\u0120canceled",
+          "\u0120rejected",
+          "\u00e4\u00b8\u012f\u00e4\u00ba\u012a",
+          "\u0120invalid"
+        ],
+        "after": [
+          "-dismiss",
+          "\u00e6\u0142\u0130",
+          "\u0120declined",
+          "\u0120rejected",
+          "exclude"
+        ]
+      },
+      {
+        "layer": 15,
+        "feature": 6637,
+        "load": 0.7855361700057983,
+        "before": [
+          "\u0120safely",
+          "\u0120safe",
+          "\u0120safety",
+          "\u00e5\u00ae\u012b\u00e5\u0127\u00a8",
+          "safe"
+        ],
+        "after": [
+          "\u0120safely",
+          "\u0120safe",
+          "\u00e5\u00ae\u012b\u00e5\u0127\u00a8",
+          "\u0120safety",
+          "safe"
+        ]
+      },
+      {
+        "layer": 17,
+        "feature": 4377,
+        "load": 0.619219183921814,
+        "before": [
+          "\u0120deton",
+          "\u00e6\u00af\u0123\u00e7\u0123\u0143",
+          "\u0120extinct",
+          "\u00e6\u0133\u00a7\u00e6\u00af\u0123",
+          ">null"
+        ],
+        "after": [
+          "\u0120deton",
+          "\u0120collapses",
+          "\u00e7\u0126\u013c",
+          ">null",
+          "\u00e6\u00af\u0123\u00e7\u0123\u0143"
+        ]
+      },
+      {
+        "layer": 17,
+        "feature": 3469,
+        "load": 0.615220308303833,
+        "before": [
+          "\u00e4\u00bb\u0127\u00e4\u00be\u013d",
+          "\u0120Hire",
+          "_only",
+          "only",
+          "\u00e5\u0131\u00aa\u00e8\u0125\u00bd"
+        ],
+        "after": [
+          "\u0120Hire",
+          "\u00e4\u00bb\u0127\u00e4\u00be\u013d",
+          "only",
+          "\u00e5\u0131\u00aa\u00e8\u0125\u00bd",
+          "_only"
+        ]
+      },
+      {
+        "layer": 17,
+        "feature": 1025,
+        "load": 0.4353906810283661,
+        "before": [
+          "\u0120note",
+          "\u0120Note",
+          "note",
+          "Note",
+          "\u0120NOTE"
+        ],
+        "after": [
+          "\u0120note",
+          "\u0120Note",
+          "note",
+          "Note",
+          "\u0120NOTE"
+        ]
+      },
+      {
+        "layer": 27,
+        "feature": 6691,
+        "load": 0.3658922612667084,
+        "before": [
+          "\u0120INTER",
+          "\u0120PRIMARY",
+          "\u0120GROUP",
+          "\u0120INDEX",
+          "\u0120DEFAULT"
+        ],
+        "after": [
+          "\u0120INTER",
+          "\u0120PRIMARY",
+          "\u0120GROUP",
+          "\u0120INDEX",
+          "\u0120ORDER"
+        ]
+      },
+      {
+        "layer": 21,
+        "feature": 2942,
+        "load": 0.31262099742889404,
+        "before": [
+          "\u0120none",
+          "\u0120no",
+          "\u0120neither",
+          "\u0120nothing",
+          "\u0120nowhere"
+        ],
+        "after": [
+          "\u0120none",
+          "\u0120no",
+          "\u0120neither",
+          "\u0120nothing",
+          "\u0120nowhere"
+        ]
+      },
+      {
+        "layer": 22,
+        "feature": 742,
+        "load": 0.3007363975048065,
+        "before": [
+          "\u00e8\u0122\u00b6",
+          "\u0120OH",
+          "OH",
+          "\u0120oh",
+          "\u0120Oh"
+        ],
+        "after": [
+          "\u00e8\u0122\u00b6",
+          "\u0120OH",
+          "OH",
+          "\u0120oh",
+          "\u0120Oh"
+        ]
+      },
+      {
+        "layer": 26,
+        "feature": 416,
+        "load": 0.2738748788833618,
+        "before": [
+          "\u00e6\u00ac\u00ba\u00e9\u00aa\u0139",
+          "\u0120fake",
+          "\u00e9\u00aa\u0139",
+          "\u00e4\u00bc\u00aa",
+          "\u00e5\u0123\u00b7"
+        ],
+        "after": [
+          "\u00e6\u00ac\u00ba\u00e9\u00aa\u0139",
+          "\u0120fake",
+          "\u00e9\u00aa\u0139",
+          "\u00e5\u0123\u00b7",
+          "\u00e4\u00bc\u00aa"
+        ]
+      }
+    ]
+  },
+  "dense_removal": {
+    "strength": 1.0,
+    "atoms": 251216,
+    "edit": {
+      "changed_sq_norm": 208.37365865707397,
+      "edited_family_sq_norm": 332842.3702392578,
+      "relative_change": 0.0250208526652557
+    },
+    "refusal_100": {
+      "n": 100,
+      "refusals": 6,
+      "refusal_rate": 0.06,
+      "opening_refusals": 4,
+      "opening_refusal_rate": 0.04,
+      "mean_response_chars": 515.96
+    },
+    "heldout_300": {
+      "n": 300,
+      "refusals": 29,
+      "refusal_rate": 0.09666666666666666,
+      "opening_refusals": 18,
+      "opening_refusal_rate": 0.06,
+      "mean_response_chars": 543.92
+    },
+    "kl_divergence": 0.029640479013323784,
+    "perplexity_wikitext2": 11.877296447753906,
+    "activation_ratio": {
+      "n": 200,
+      "mean": -0.43554452061653137,
+      "median": 0.054125841706991196,
+      "min": -92.61949920654297,
+      "max": 39.944923400878906,
+      "within_20pct": 0.014999999664723873
+    },
+    "down_top_token_changed": 134,
+    "down_top_token_changed_fraction": 0.67,
+    "examples": [
+      {
+        "layer": 18,
+        "feature": 2120,
+        "load": 2.174194812774658,
+        "before": [
+          "\u00e4\u00b8\u012f\u00e5\u0143\u013a\u00e5\u013e\u00a8",
+          "\u0120neither",
+          "\u00e5\u00ae\u012e\u00e5\u0127\u00a8\u00e6\u00b2\u00a1\u00e6\u013e\u012b",
+          "\u00e6\u013a\u00af\u00e4\u00b8\u012f\u00e5\u0131\u00af\u00e8\u0125\u00bd",
+          "\u00e9\u0125\u00bd\u00e4\u00b8\u012f\u00e4\u00bc\u013c"
+        ],
+        "after": [
+          "\u00e4\u00b8\u012f\u00e5\u0143\u013a\u00e5\u013e\u00a8",
+          "\u0120neither",
+          "\u00e4\u00b8\u012f\u00e5\u0129\u00ba\u00e6\u013f\u00a5",
+          "\u00e5\u00ae\u012e\u00e5\u0127\u00a8\u00e6\u00b2\u00a1\u00e6\u013e\u012b",
+          "\u00e7\u013e\u012d\u00e4\u00b8\u012f\u00e5\u0129\u00ba"
+        ]
+      },
+      {
+        "layer": 22,
+        "feature": 2869,
+        "load": 1.3152483701705933,
+        "before": [
+          "\u0120apologize",
+          "\u0120sorry",
+          "\u0120apologies",
+          "\u0120apology",
+          "\u0120apologise"
+        ],
+        "after": [
+          "\u0120apologize",
+          "\u0120sorry",
+          "\u0120apology",
+          "\u0120apologies",
+          "\u0120apologise"
+        ]
+      },
+      {
+        "layer": 21,
+        "feature": 47,
+        "load": 1.185522437095642,
+        "before": [
+          "\u0120unfortunately",
+          "\u00e9\u0123\u0139\u00e6\u0128\u00be",
+          "\u0120sadly",
+          "\u0120regret",
+          "\u0120sorry"
+        ],
+        "after": [
+          "\u0120unfortunately",
+          "\u00e9\u0123\u0139\u00e6\u0128\u00be",
+          "\u0120sadly",
+          "\u0120regret",
+          "\u0120sorry"
+        ]
+      },
+      {
+        "layer": 17,
+        "feature": 47,
+        "load": 1.1459294557571411,
+        "before": [
+          "\u0120declined",
+          "\u0120canceled",
+          "\u0120rejected",
+          "\u00e4\u00b8\u012f\u00e4\u00ba\u012a",
+          "\u0120invalid"
+        ],
+        "after": [
+          "-dismiss",
+          "\u00e6\u0142\u0130",
+          "\u0120declined",
+          "\u0120rejected",
+          "exclude"
+        ]
+      },
+      {
+        "layer": 15,
+        "feature": 6637,
+        "load": 0.7855361700057983,
+        "before": [
+          "\u0120safely",
+          "\u0120safe",
+          "\u0120safety",
+          "\u00e5\u00ae\u012b\u00e5\u0127\u00a8",
+          "safe"
+        ],
+        "after": [
+          "\u0120safely",
+          "\u0120safe",
+          "\u00e5\u00ae\u012b\u00e5\u0127\u00a8",
+          "\u0120safety",
+          "safe"
+        ]
+      },
+      {
+        "layer": 17,
+        "feature": 4377,
+        "load": 0.619219183921814,
+        "before": [
+          "\u0120deton",
+          "\u00e6\u00af\u0123\u00e7\u0123\u0143",
+          "\u0120extinct",
+          "\u00e6\u0133\u00a7\u00e6\u00af\u0123",
+          ">null"
+        ],
+        "after": [
+          "\u0120deton",
+          "\u0120collapses",
+          "\u00e7\u0126\u013c",
+          ">null",
+          "\u00e6\u00af\u0123\u00e7\u0123\u0143"
+        ]
+      },
+      {
+        "layer": 17,
+        "feature": 3469,
+        "load": 0.615220308303833,
+        "before": [
+          "\u00e4\u00bb\u0127\u00e4\u00be\u013d",
+          "\u0120Hire",
+          "_only",
+          "only",
+          "\u00e5\u0131\u00aa\u00e8\u0125\u00bd"
+        ],
+        "after": [
+          "\u0120Hire",
+          "\u00e4\u00bb\u0127\u00e4\u00be\u013d",
+          "only",
+          "\u00e5\u0131\u00aa\u00e8\u0125\u00bd",
+          "_only"
+        ]
+      },
+      {
+        "layer": 17,
+        "feature": 1025,
+        "load": 0.4353906810283661,
+        "before": [
+          "\u0120note",
+          "\u0120Note",
+          "note",
+          "Note",
+          "\u0120NOTE"
+        ],
+        "after": [
+          "\u0120note",
+          "\u0120Note",
+          "note",
+          "Note",
+          "\u0120NOTE"
+        ]
+      },
+      {
+        "layer": 27,
+        "feature": 6691,
+        "load": 0.3658922612667084,
+        "before": [
+          "\u0120INTER",
+          "\u0120PRIMARY",
+          "\u0120GROUP",
+          "\u0120INDEX",
+          "\u0120DEFAULT"
+        ],
+        "after": [
+          "\u0120INTER",
+          "\u0120PRIMARY",
+          "\u0120GROUP",
+          "\u0120INDEX",
+          "\u0120ORDER"
+        ]
+      },
+      {
+        "layer": 21,
+        "feature": 2942,
+        "load": 0.31262099742889404,
+        "before": [
+          "\u0120none",
+          "\u0120no",
+          "\u0120neither",
+          "\u0120nothing",
+          "\u0120nowhere"
+        ],
+        "after": [
+          "\u0120none",
+          "\u0120no",
+          "\u0120neither",
+          "\u0120nothing",
+          "\u0120nowhere"
+        ]
+      },
+      {
+        "layer": 22,
+        "feature": 742,
+        "load": 0.3007363975048065,
+        "before": [
+          "\u00e8\u0122\u00b6",
+          "\u0120OH",
+          "OH",
+          "\u0120oh",
+          "\u0120Oh"
+        ],
+        "after": [
+          "\u00e8\u0122\u00b6",
+          "\u0120OH",
+          "OH",
+          "\u0120oh",
+          "\u0120Oh"
+        ]
+      },
+      {
+        "layer": 26,
+        "feature": 416,
+        "load": 0.2738748788833618,
+        "before": [
+          "\u00e6\u00ac\u00ba\u00e9\u00aa\u0139",
+          "\u0120fake",
+          "\u00e9\u00aa\u0139",
+          "\u00e4\u00bc\u00aa",
+          "\u00e5\u0123\u00b7"
+        ],
+        "after": [
+          "\u00e6\u00ac\u00ba\u00e9\u00aa\u0139",
+          "\u0120fake",
+          "\u00e9\u00aa\u0139",
+          "\u00e5\u0123\u00b7",
+          "\u00e4\u00bc\u00aa"
+        ]
+      }
+    ]
+  }
+}

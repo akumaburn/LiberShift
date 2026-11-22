@@ -1,0 +1,140 @@
+{
+  "configs": {
+    "removal_90": {
+      "kl_total": 0.019708693896841826,
+      "kl_in_accept_refuse_set": 0.0026608055723446444,
+      "kl_outside_set": 0.01704788832449718,
+      "in_set_share": 0.13500669228877815,
+      "mean_accept_mass_base": 0.10014994113531392,
+      "mean_accept_mass_now": 0.1025935007470867,
+      "top_contributors_rowsum": 0.027699523265862596,
+      "perplexity_wikitext2": 11.56265640258789,
+      "edit": {
+        "changed_sq_norm": 20.548838479444385,
+        "edited_family_sq_norm": 332842.3702392578,
+        "relative_change": 0.007857318108846267
+      },
+      "atoms": 35043
+    },
+    "neg_r_g0.5": {
+      "kl_total": 0.038132837753270546,
+      "kl_in_accept_refuse_set": 0.004687851997353945,
+      "kl_outside_set": 0.03344498575591659,
+      "in_set_share": 0.1229347794068088,
+      "mean_accept_mass_base": 0.10014994113531392,
+      "mean_accept_mass_now": 0.10593320399411134,
+      "top_contributors_rowsum": 0.04262919717487929,
+      "perplexity_wikitext2": 11.581938743591309,
+      "edit": {
+        "gamma": 0.5,
+        "changed_sq_norm": 46.25253399088979,
+        "edited_family_sq_norm": 332842.3620605469,
+        "relative_change": 0.011788226390650504
+      },
+      "atoms": 35043
+    },
+    "neg_r_g1": {
+      "kl_total": 0.06174282685402966,
+      "kl_in_accept_refuse_set": 0.008834129604848775,
+      "kl_outside_set": 0.052908697249180896,
+      "in_set_share": 0.143079448333879,
+      "mean_accept_mass_base": 0.10014994113531392,
+      "mean_accept_mass_now": 0.10911677869495734,
+      "top_contributors_rowsum": 0.05945680867197175,
+      "perplexity_wikitext2": 11.599669456481934,
+      "edit": {
+        "gamma": 1.0,
+        "changed_sq_norm": 82.07066291198134,
+        "edited_family_sq_norm": 332842.3620605469,
+        "relative_change": 0.01570271227256936
+      },
+      "atoms": 35043
+    },
+    "grad_g0.3": {
+      "kl_total": 0.04061897064355608,
+      "kl_in_accept_refuse_set": 0.021900991279167073,
+      "kl_outside_set": 0.018717979364389,
+      "in_set_share": 0.5391813463554994,
+      "mean_accept_mass_base": 0.10014994113531392,
+      "mean_accept_mass_now": 0.09533662787157579,
+      "top_contributors_rowsum": 0.04559292114560598,
+      "perplexity_wikitext2": 11.574596405029297,
+      "edit": {
+        "gamma": 0.3,
+        "changed_sq_norm": 22.984832286834717,
+        "edited_family_sq_norm": 332842.3620605469,
+        "relative_change": 0.00831000666109834
+      },
+      "atoms": 35043
+    },
+    "grad_g0.5": {
+      "kl_total": 0.06628875462539685,
+      "kl_in_accept_refuse_set": 0.033985643056621676,
+      "kl_outside_set": 0.03230311156877516,
+      "in_set_share": 0.5126909269706048,
+      "mean_accept_mass_base": 0.10014994113531392,
+      "mean_accept_mass_now": 0.09687037315786612,
+      "top_contributors_rowsum": 0.06424681249528348,
+      "perplexity_wikitext2": 11.593053817749023,
+      "edit": {
+        "gamma": 0.5,
+        "changed_sq_norm": 26.660447971895337,
+        "edited_family_sq_norm": 332842.3620605469,
+        "relative_change": 0.008949822529851591
+      },
+      "atoms": 35043
+    },
+    "grad_g0.75": {
+      "kl_total": 0.11025219043572536,
+      "kl_in_accept_refuse_set": 0.04821374977288283,
+      "kl_outside_set": 0.062038440662842545,
+      "in_set_share": 0.437304234794232,
+      "mean_accept_mass_base": 0.10014994113531392,
+      "mean_accept_mass_now": 0.10534926300799528,
+      "top_contributors_rowsum": 0.09799871534811552,
+      "perplexity_wikitext2": 11.623602867126465,
+      "edit": {
+        "gamma": 0.75,
+        "changed_sq_norm": 33.550529156811535,
+        "edited_family_sq_norm": 332842.3620605469,
+        "relative_change": 0.010039923170407012
+      },
+      "atoms": 35043
+    },
+    "dense_removal": {
+      "kl_total": 0.02964047437050584,
+      "kl_in_accept_refuse_set": 0.0035753226377626636,
+      "kl_outside_set": 0.026065151732743173,
+      "in_set_share": 0.12062298980344044,
+      "mean_accept_mass_base": 0.10014994113531392,
+      "mean_accept_mass_now": 0.10151160385475577,
+      "top_contributors_rowsum": 0.04040343142684754,
+      "perplexity_wikitext2": 11.877296447753906,
+      "edit": {
+        "changed_sq_norm": 208.37365865707397,
+        "edited_family_sq_norm": 332842.3702392578,
+        "relative_change": 0.0250208526652557
+      },
+      "atoms": 251216
+    }
+  },
+  "accept_words": [
+    "Sure",
+    "Here",
+    "Of",
+    "Yes",
+    "Absolutely",
+    "Certainly",
+    "Great",
+    "Okay",
+    "Alright"
+  ],
+  "refuse_words": [
+    "I",
+    "Sorry",
+    "Unfortunately",
+    "As",
+    "No",
+    "Cannot"
+  ]
+}

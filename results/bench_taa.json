@@ -1,0 +1,26 @@
+{
+  "model": "textbook_mid",
+  "path": "out/export/textbook_mid",
+  "limit": 300,
+  "tasks": {
+    "arc_easy": {
+      "sample_len": 300,
+      "acc,none": 0.73,
+      "acc_stderr,none": 0.02567483835226067,
+      "acc_norm,none": 0.7366666666666667,
+      "acc_norm_stderr,none": 0.025471401031969185
+    },
+    "piqa": {
+      "sample_len": 300,
+      "acc,none": 0.7566666666666667,
+      "acc_stderr,none": 0.024815184572325923,
+      "acc_norm,none": 0.78,
+      "acc_norm_stderr,none": 0.02395648228514071
+    },
+    "winogrande": {
+      "sample_len": 300,
+      "acc,none": 0.64,
+      "acc_stderr,none": 0.02775911673437953
+    }
+  }
+}

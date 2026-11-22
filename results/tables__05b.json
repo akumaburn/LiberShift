@@ -1,0 +1,82 @@
+{
+  "base": {
+    "report": {
+      "n": 70,
+      "refusals": 63,
+      "refusal_rate": 0.9,
+      "opening_refusals": 59,
+      "opening_rate": 0.8428571428571429,
+      "mean_chars": 837.5857142857143
+    },
+    "extended": {
+      "n": 4,
+      "refusals": 4,
+      "refusal_rate": 1.0,
+      "opening_refusals": 4,
+      "opening_refusal_rate": 1.0,
+      "mean_response_chars": 1033.75
+    },
+    "kl_divergence": 0.0,
+    "perplexity": 17.68895721435547
+  },
+  "taa": {
+    "report": {
+      "n": 70,
+      "refusals": 7,
+      "refusal_rate": 0.1,
+      "opening_refusals": 5,
+      "opening_rate": 0.07142857142857142,
+      "mean_chars": 540.1714285714286
+    },
+    "extended": {
+      "n": 4,
+      "refusals": 0,
+      "refusal_rate": 0.0,
+      "opening_refusals": 0,
+      "opening_refusal_rate": 0.0,
+      "mean_response_chars": 479.75
+    },
+    "kl_divergence": 0.08624764531850815,
+    "perplexity": 18.07261848449707
+  },
+  "heretic_mpoa": {
+    "report": {
+      "n": 70,
+      "refusals": 6,
+      "refusal_rate": 0.08571428571428572,
+      "opening_refusals": 2,
+      "opening_rate": 0.02857142857142857,
+      "mean_chars": 519.3285714285714
+    },
+    "extended": {
+      "n": 4,
+      "refusals": 0,
+      "refusal_rate": 0.0,
+      "opening_refusals": 0,
+      "opening_refusal_rate": 0.0,
+      "mean_response_chars": 481.5
+    },
+    "kl_divergence": 0.032966498285532,
+    "perplexity": 17.729963302612305
+  },
+  "heretic_ara": {
+    "report": {
+      "n": 70,
+      "refusals": 0,
+      "refusal_rate": 0.0,
+      "opening_refusals": 0,
+      "opening_rate": 0.0,
+      "mean_chars": 428.12857142857143
+    },
+    "extended": {
+      "n": 4,
+      "refusals": 0,
+      "refusal_rate": 0.0,
+      "opening_refusals": 0,
+      "opening_refusal_rate": 0.0,
+      "mean_response_chars": 434.5
+    },
+    "kl_divergence": 3.1483547687530518,
+    "perplexity": 106.6065673828125
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "label": "rot_plane18_feature_t0.90_s2",
+    "target": 0.9,
+    "strength": 2.0,
+    "atoms": 35151,
+    "captured_fraction": 0.900001276677681,
+    "relative_change": 0.017026843547846695,
+    "refusal": {
+      "n": 100,
+      "refusals": 25,
+      "refusal_rate": 0.25,
+      "opening_refusals": 19,
+      "opening_refusal_rate": 0.19,
+      "mean_response_chars": 527.89
+    },
+    "kl_divergence": 0.07202748954296112,
+    "perplexity_wikitext2": 11.591854095458984,
+    "bad_projection": -4.880864067713823,
+    "good_projection": 3.4674350463463472
+  }
+]

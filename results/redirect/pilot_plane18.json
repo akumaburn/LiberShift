@@ -1,0 +1,162 @@
+[
+  {
+    "label": "rot_plane18_t0.50_s1",
+    "target": 0.5,
+    "strength": 1.0,
+    "atoms": 14631,
+    "captured_fraction": 0.5018716918786564,
+    "relative_change": 0.003768198985332515,
+    "refusal": {
+      "n": 100,
+      "refusals": 94,
+      "refusal_rate": 0.94,
+      "opening_refusals": 80,
+      "opening_refusal_rate": 0.8,
+      "mean_response_chars": 856.94
+    },
+    "kl_divergence": 0.004593293182551861,
+    "perplexity_wikitext2": 11.559064865112305,
+    "bad_projection": 0.9127879694241859,
+    "good_projection": 1.0961166962971651
+  },
+  {
+    "label": "rot_plane18_t0.50_s2",
+    "target": 0.5,
+    "strength": 2.0,
+    "atoms": 14631,
+    "captured_fraction": 0.5018716918786564,
+    "relative_change": 0.007524464638722397,
+    "refusal": {
+      "n": 100,
+      "refusals": 77,
+      "refusal_rate": 0.77,
+      "opening_refusals": 64,
+      "opening_refusal_rate": 0.64,
+      "mean_response_chars": 735.97
+    },
+    "kl_divergence": 0.01401840802282095,
+    "perplexity_wikitext2": 11.568349838256836,
+    "bad_projection": -10.389597233012903,
+    "good_projection": 2.1624360577830144
+  },
+  {
+    "label": "rot_plane18_t0.75_s1",
+    "target": 0.75,
+    "strength": 1.0,
+    "atoms": 25233,
+    "captured_fraction": 0.7506917760325929,
+    "relative_change": 0.00578026381759873,
+    "refusal": {
+      "n": 100,
+      "refusals": 73,
+      "refusal_rate": 0.73,
+      "opening_refusals": 64,
+      "opening_refusal_rate": 0.64,
+      "mean_response_chars": 738.38
+    },
+    "kl_divergence": 0.011983206495642662,
+    "perplexity_wikitext2": 11.560015678405762,
+    "bad_projection": -2.1985335515469067,
+    "good_projection": 2.2406134599039915
+  },
+  {
+    "label": "rot_plane18_t0.75_s2",
+    "target": 0.75,
+    "strength": 2.0,
+    "atoms": 25233,
+    "captured_fraction": 0.7506917760325929,
+    "relative_change": 0.011549149007963978,
+    "refusal": {
+      "n": 100,
+      "refusals": 39,
+      "refusal_rate": 0.39,
+      "opening_refusals": 36,
+      "opening_refusal_rate": 0.36,
+      "mean_response_chars": 556.44
+    },
+    "kl_divergence": 0.0402885302901268,
+    "perplexity_wikitext2": 11.581673622131348,
+    "bad_projection": -7.236136789391928,
+    "good_projection": 3.046029556784084
+  },
+  {
+    "label": "rot_plane18_t0.90_s1",
+    "target": 0.9,
+    "strength": 1.0,
+    "atoms": 35043,
+    "captured_fraction": 0.9000106218990885,
+    "relative_change": 0.007857318108846267,
+    "refusal": {
+      "n": 100,
+      "refusals": 52,
+      "refusal_rate": 0.52,
+      "opening_refusals": 46,
+      "opening_refusal_rate": 0.46,
+      "mean_response_chars": 634.29
+    },
+    "kl_divergence": 0.019708694890141487,
+    "perplexity_wikitext2": 11.56265640258789,
+    "bad_projection": -0.5711328311760259,
+    "good_projection": 3.0541771721480933
+  },
+  {
+    "label": "rot_plane18_t0.90_s2",
+    "target": 0.9,
+    "strength": 2.0,
+    "atoms": 35043,
+    "captured_fraction": 0.9000106218990885,
+    "relative_change": 0.015702712068595415,
+    "refusal": {
+      "n": 100,
+      "refusals": 17,
+      "refusal_rate": 0.17,
+      "opening_refusals": 12,
+      "opening_refusal_rate": 0.12,
+      "mean_response_chars": 519.36
+    },
+    "kl_divergence": 0.06140419840812683,
+    "perplexity_wikitext2": 11.602961540222168,
+    "bad_projection": -3.251444349839089,
+    "good_projection": 3.6219089402076277
+  },
+  {
+    "label": "rot_plane18_t1.00_s1",
+    "target": 1.0,
+    "strength": 1.0,
+    "atoms": 53626,
+    "captured_fraction": 0.9999999999999999,
+    "relative_change": 0.011718939417543893,
+    "refusal": {
+      "n": 100,
+      "refusals": 37,
+      "refusal_rate": 0.37,
+      "opening_refusals": 33,
+      "opening_refusal_rate": 0.33,
+      "mean_response_chars": 590.14
+    },
+    "kl_divergence": 0.03185242414474487,
+    "perplexity_wikitext2": 11.578744888305664,
+    "bad_projection": 1.0735831440497616,
+    "good_projection": 3.343839256150357
+  },
+  {
+    "label": "rot_plane18_t1.00_s2",
+    "target": 1.0,
+    "strength": 2.0,
+    "atoms": 53626,
+    "captured_fraction": 0.9999999999999999,
+    "relative_change": 0.02342405341472276,
+    "refusal": {
+      "n": 100,
+      "refusals": 8,
+      "refusal_rate": 0.08,
+      "opening_refusals": 3,
+      "opening_refusal_rate": 0.03,
+      "mean_response_chars": 516.66
+    },
+    "kl_divergence": 0.10028611868619919,
+    "perplexity_wikitext2": 11.635575294494629,
+    "bad_projection": -0.8202502073889051,
+    "good_projection": 3.082301402812509
+  }
+]

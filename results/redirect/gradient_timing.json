@@ -1,0 +1,8 @@
+{
+  "model": "Qwen2.5-1.5B-Instruct",
+  "prompts": 400,
+  "batch_size": 8,
+  "seconds": 2.469574213027954,
+  "mean_score_before": -8.538944444656373,
+  "device": "NVIDIA GeForce RTX 5080 Laptop GPU"
+}

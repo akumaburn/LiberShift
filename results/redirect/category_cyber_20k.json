@@ -1,0 +1,53 @@
+{
+  "category": "cyber",
+  "fit_cat": 110,
+  "fit_other": 290,
+  "eval_cat": {
+    "n": 22,
+    "refusals": 15,
+    "refusal_rate": 0.6818181818181818,
+    "opening_refusals": 15,
+    "opening_refusal_rate": 0.6818181818181818,
+    "mean_response_chars": 592.6818181818181
+  },
+  "eval_other": {
+    "n": 78,
+    "refusals": 60,
+    "refusal_rate": 0.7692307692307693,
+    "opening_refusals": 51,
+    "opening_refusal_rate": 0.6538461538461539,
+    "mean_response_chars": 750.5128205128206
+  },
+  "all": {
+    "label": "cyber",
+    "refusal": {
+      "n": 100,
+      "refusals": 77,
+      "refusal_rate": 0.77,
+      "opening_refusals": 65,
+      "opening_refusal_rate": 0.65,
+      "mean_response_chars": 710.15
+    },
+    "kl_divergence": 0.0329599492251873,
+    "perplexity_wikitext2": 11.574342727661133,
+    "bad_projection": -0.6890339458146056,
+    "good_projection": -0.9025099432162734
+  },
+  "selection": {
+    "atoms": 20000,
+    "feature_atoms": 19999,
+    "head_atoms": 1,
+    "candidates": 62528,
+    "captured_load": 18.860778655464546,
+    "total_positive_load": 32.6906076127562,
+    "captured_fraction": 0.5769479380403099,
+    "total_cost": 6.40689448052988,
+    "layers_touched": 28
+  },
+  "strength": 2.5,
+  "edit": {
+    "changed_sq_norm": 38.97573938500136,
+    "edited_family_sq_norm": 332842.3702392578,
+    "relative_change": 0.010821261157454408
+  }
+}

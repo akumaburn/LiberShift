@@ -1,0 +1,37 @@
+{
+  "model": "Qwen2.5-1.5B-Instruct",
+  "stages": {
+    "load model": 0.7412397880107164,
+    "capture 800 prompts": 3.099103910033591,
+    "attribute 28 layers": 1.184662593062967,
+    "calibrate 6 planes x 30 prompts": 12.16021926596295,
+    "apply edit": 0.21841742494143546,
+    "export checkpoint + patch": 1.0174393400084227,
+    "final evaluation (370 prompts)": 15.23744409903884
+  },
+  "total": 33.65853512601461,
+  "chosen_plane": 18,
+  "calibration_scores": {
+    "14": 0.43333333333333335,
+    "16": 0.13333333333333333,
+    "18": 0.03333333333333333,
+    "20": 0.03333333333333333,
+    "22": 0.23333333333333334,
+    "24": 0.4666666666666667
+  },
+  "atoms": 251216,
+  "edit": {
+    "changed_sq_norm": 208.37365865707397,
+    "edited_family_sq_norm": 332842.3702392578,
+    "relative_change": 0.0250208526652557
+  },
+  "heretic_clean_wall_seconds": {
+    "mpoa_40_trials": 141.31,
+    "ara_40_trials": 398.45
+  },
+  "heretic_trial_loop_seconds": {
+    "mpoa": 115,
+    "ara": 342
+  },
+  "notes": "TAA stages measured with cuda synchronise, GPU otherwise idle. Heretic figures are full process wall clock, which includes model load, its batch-size benchmark, 40 trials and the save."
+}

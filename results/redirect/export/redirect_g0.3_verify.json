@@ -1,0 +1,222 @@
+{
+  "patch": {
+    "format": "taa-patch/3",
+    "representation": "redirect",
+    "base_model": "Qwen2.5-1.5B-Instruct",
+    "method": "acceptance-redirect",
+    "gamma": 0.3,
+    "selection": {
+      "target": 0.9,
+      "atoms": 35043,
+      "captured_fraction": 0.9000106218990885,
+      "kind": "grad",
+      "plane": 18,
+      "edit": {
+        "gamma": 0.3,
+        "changed_sq_norm": 22.984832286834717,
+        "edited_family_sq_norm": 332842.3620605469,
+        "relative_change": 0.00831000666109834
+      }
+    },
+    "array_file": "redirect_g0.3.npz",
+    "array_sha256": "b365e33f150653f520062744d0a70ba8de90355ec818f4c9a62db513ca01c840",
+    "array_bytes": 514340,
+    "layers": [
+      {
+        "layer": 0,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "47095fc291c608c8"
+      },
+      {
+        "layer": 1,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "2b5acf17f9a41212"
+      },
+      {
+        "layer": 2,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "31661e12a86b18a2"
+      },
+      {
+        "layer": 3,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "031bfd7a8370786f"
+      },
+      {
+        "layer": 4,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "c7defec38383fe54"
+      },
+      {
+        "layer": 5,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "af384472d7a0b553"
+      },
+      {
+        "layer": 6,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "b9811b4ccb7bd044"
+      },
+      {
+        "layer": 7,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "9b9b7ba69e01ee14"
+      },
+      {
+        "layer": 8,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "c54d79402d96eb79"
+      },
+      {
+        "layer": 9,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "6066c018161cf8d9"
+      },
+      {
+        "layer": 10,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "bbaa26f6cf4e3242"
+      },
+      {
+        "layer": 11,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "c02f13b5c6114f4b"
+      },
+      {
+        "layer": 12,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "75a7b1fc9fa0993c"
+      },
+      {
+        "layer": 13,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "84fa0bf4032467f3"
+      },
+      {
+        "layer": 14,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "6d4bd2d5c631351a"
+      },
+      {
+        "layer": 15,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "e49c7901f057d5f2"
+      },
+      {
+        "layer": 16,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "4b5488a689c92919"
+      },
+      {
+        "layer": 17,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "90ef1830a8c98f98"
+      },
+      {
+        "layer": 18,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "498147bc04685994"
+      },
+      {
+        "layer": 19,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "f4833276fff9c0a9"
+      },
+      {
+        "layer": 20,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "7885e56b592d394e"
+      },
+      {
+        "layer": 21,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "efda78f119da091c"
+      },
+      {
+        "layer": 22,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "548c9d987794a130"
+      },
+      {
+        "layer": 23,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "10771115f239d2de"
+      },
+      {
+        "layer": 24,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "8421a6ad8b45917a"
+      },
+      {
+        "layer": 25,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "53bf7fdbb203a503"
+      },
+      {
+        "layer": 26,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "c68ec78cfa3f4517"
+      },
+      {
+        "layer": 27,
+        "direction_sha256": "96bb3a6ab52bf10e",
+        "target_sha256": "798d360c1da108c1"
+      }
+    ],
+    "layer_count": 28,
+    "atoms": 35043
+  },
+  "atoms": 35043,
+  "gamma": 0.3,
+  "mode": "grad",
+  "selection": {
+    "atoms": 35043,
+    "feature_atoms": 35036,
+    "head_atoms": 7,
+    "candidates": 53626,
+    "captured_load": 102.74375007804865,
+    "total_positive_load": 114.15837499923255,
+    "captured_fraction": 0.9000106218990885,
+    "total_cost": 21.553490418814185,
+    "layers_touched": 28
+  },
+  "edit": {
+    "gamma": 0.3,
+    "changed_sq_norm": 22.984832286834717,
+    "edited_family_sq_norm": 332842.3620605469,
+    "relative_change": 0.00831000666109834
+  },
+  "replay": {
+    "apply": {
+      "applied_atoms": 35043,
+      "target": "out/export/redirect_g0.3_from_patch",
+      "representation": "redirect",
+      "patch_sha256": "b365e33f150653f520062744d0a70ba8de90355ec818f4c9a62db513ca01c840",
+      "patch_bytes": 514340
+    },
+    "prompts": 16,
+    "max_logit_difference": 0.0
+  },
+  "exported": {
+    "refusal_100": {
+      "n": 100,
+      "refusals": 11,
+      "refusal_rate": 0.11,
+      "opening_refusals": 1,
+      "opening_refusal_rate": 0.01,
+      "mean_response_chars": 504.77
+    },
+    "heldout_300": {
+      "n": 300,
+      "refusals": 69,
+      "refusal_rate": 0.23,
+      "opening_refusals": 30,
+      "opening_refusal_rate": 0.1,
+      "mean_response_chars": 543.4433333333334
+    },
+    "kl_divergence": 0.04061896726489067,
+    "perplexity_wikitext2": 11.574596405029297,
+    "bad_projection": 4.4356192779541015,
+    "good_projection": 2.9219454765319823
+  }
+}

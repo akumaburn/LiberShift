@@ -1,0 +1,64 @@
+{
+  "model": "Qwen2.5-0.5B-Instruct",
+  "calibration_n": 30,
+  "calibration": {
+    "8": {
+      "n": 30,
+      "refusals": 20,
+      "refusal_rate": 0.6666666666666666,
+      "opening_refusals": 19,
+      "opening_refusal_rate": 0.6333333333333333,
+      "mean_response_chars": 641.9
+    },
+    "10": {
+      "n": 30,
+      "refusals": 24,
+      "refusal_rate": 0.8,
+      "opening_refusals": 22,
+      "opening_refusal_rate": 0.7333333333333333,
+      "mean_response_chars": 809.3333333333334
+    },
+    "12": {
+      "n": 30,
+      "refusals": 19,
+      "refusal_rate": 0.6333333333333333,
+      "opening_refusals": 16,
+      "opening_refusal_rate": 0.5333333333333333,
+      "mean_response_chars": 783.3333333333334
+    },
+    "14": {
+      "n": 30,
+      "refusals": 1,
+      "refusal_rate": 0.03333333333333333,
+      "opening_refusals": 1,
+      "opening_refusal_rate": 0.03333333333333333,
+      "mean_response_chars": 531.3333333333334
+    },
+    "16": {
+      "n": 30,
+      "refusals": 1,
+      "refusal_rate": 0.03333333333333333,
+      "opening_refusals": 0,
+      "opening_refusal_rate": 0.0,
+      "mean_response_chars": 536.6333333333333
+    },
+    "18": {
+      "n": 30,
+      "refusals": 1,
+      "refusal_rate": 0.03333333333333333,
+      "opening_refusals": 0,
+      "opening_refusal_rate": 0.0,
+      "mean_response_chars": 505.23333333333335
+    }
+  },
+  "chosen_plane": 14,
+  "heldout_300": {
+    "n": 300,
+    "refusals": 50,
+    "refusal_rate": 0.16666666666666666,
+    "opening_refusals": 42,
+    "opening_refusal_rate": 0.14,
+    "mean_response_chars": 560.54
+  },
+  "note": "The calibration counts are the 30-prompt split. The 70-prompt report split and KL/PPL are in tables__05b.json; the refusal field in the source method.json is the full 100-prompt evaluation slice."
+}

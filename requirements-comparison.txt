@@ -1,0 +1,11 @@
+# Only needed to reproduce the comparison runs. The method itself does not use
+# any of this.
+#
+# Heretic supplies the two baselines and its scorer definitions; lm-eval
+# supplies the capability tasks. Heretic pins its own dependency versions, so
+# install it on its own after torch:
+#
+#   uv pip install --python .venv/bin/python -e ./heretic
+#
+heretic-llm>=2.2
+lm-eval[hf]>=0.4

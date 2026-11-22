@@ -1,0 +1,26 @@
+{
+  "model": "base_05b",
+  "path": "models/Qwen2.5-0.5B-Instruct",
+  "limit": 300,
+  "tasks": {
+    "arc_easy": {
+      "sample_len": 300,
+      "acc,none": 0.5833333333333334,
+      "acc_stderr,none": 0.02851131064391753,
+      "acc_norm,none": 0.5833333333333334,
+      "acc_norm_stderr,none": 0.02851131064391753
+    },
+    "piqa": {
+      "sample_len": 300,
+      "acc,none": 0.7133333333333334,
+      "acc_stderr,none": 0.026151660126798607,
+      "acc_norm,none": 0.71,
+      "acc_norm_stderr,none": 0.026241737033622717
+    },
+    "winogrande": {
+      "sample_len": 300,
+      "acc,none": 0.5566666666666666,
+      "acc_stderr,none": 0.028729443073160024
+    }
+  }
+}

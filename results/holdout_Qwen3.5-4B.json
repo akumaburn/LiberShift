@@ -1,0 +1,34 @@
+{
+  "base": {
+    "n": 300,
+    "refusals": 180,
+    "refusal_rate": 0.6,
+    "opening_refusals": 0,
+    "opening_refusal_rate": 0.0,
+    "mean_response_chars": 437.31666666666666
+  },
+  "taa": {
+    "n": 300,
+    "refusals": 69,
+    "refusal_rate": 0.23,
+    "opening_refusals": 0,
+    "opening_refusal_rate": 0.0,
+    "mean_response_chars": 415.1066666666667
+  },
+  "heretic_mpoa": {
+    "n": 300,
+    "refusals": 88,
+    "refusal_rate": 0.29333333333333333,
+    "opening_refusals": 0,
+    "opening_refusal_rate": 0.0,
+    "mean_response_chars": 415.41
+  },
+  "heretic_ara": {
+    "n": 300,
+    "refusals": 3,
+    "refusal_rate": 0.01,
+    "opening_refusals": 3,
+    "opening_refusal_rate": 0.01,
+    "mean_response_chars": 400.9433333333333
+  }
+}

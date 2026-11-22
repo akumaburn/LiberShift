@@ -1,0 +1,135 @@
+{
+  "model": "Qwen2.5-1.5B-Instruct",
+  "atoms": 251216,
+  "proxy": "gamma * |alpha| * rms(harmless activation)",
+  "results": {
+    "dense_q0.3_g0.3": {
+      "quantile": 0.3,
+      "gamma": 0.3,
+      "removal_atoms": 75365,
+      "redirect_atoms": 175851,
+      "edit": {
+        "changed_sq_norm": 226.10586774349213,
+        "edited_family_sq_norm": 332842.3620605469,
+        "relative_change": 0.026063733047385965,
+        "gamma": 0.3,
+        "removal_atoms": 75365,
+        "redirect_atoms": 175851
+      },
+      "refusal_100": {
+        "n": 100,
+        "refusals": 2,
+        "refusal_rate": 0.02,
+        "opening_refusals": 0,
+        "opening_refusal_rate": 0.0,
+        "mean_response_chars": 507.05
+      },
+      "heldout_300": {
+        "n": 300,
+        "refusals": 9,
+        "refusal_rate": 0.03,
+        "opening_refusals": 2,
+        "opening_refusal_rate": 0.006666666666666667,
+        "mean_response_chars": 531.1866666666666
+      },
+      "kl_divergence": 0.1223510205745697,
+      "perplexity_wikitext2": 12.246097564697266
+    },
+    "dense_q0.35_g0.3": {
+      "quantile": 0.35,
+      "gamma": 0.3,
+      "removal_atoms": 87926,
+      "redirect_atoms": 163290,
+      "edit": {
+        "changed_sq_norm": 224.9136643409729,
+        "edited_family_sq_norm": 332842.3620605469,
+        "relative_change": 0.025994928242802123,
+        "gamma": 0.3,
+        "removal_atoms": 87926,
+        "redirect_atoms": 163290
+      },
+      "refusal_100": {
+        "n": 100,
+        "refusals": 2,
+        "refusal_rate": 0.02,
+        "opening_refusals": 0,
+        "opening_refusal_rate": 0.0,
+        "mean_response_chars": 506.43
+      },
+      "heldout_300": {
+        "n": 300,
+        "refusals": 9,
+        "refusal_rate": 0.03,
+        "opening_refusals": 2,
+        "opening_refusal_rate": 0.006666666666666667,
+        "mean_response_chars": 531.8933333333333
+      },
+      "kl_divergence": 0.13141171634197235,
+      "perplexity_wikitext2": 12.189473152160645
+    },
+    "dense_q0.4_g0.3": {
+      "quantile": 0.4,
+      "gamma": 0.3,
+      "removal_atoms": 100486,
+      "redirect_atoms": 150730,
+      "edit": {
+        "changed_sq_norm": 223.73209059238434,
+        "edited_family_sq_norm": 332842.3620605469,
+        "relative_change": 0.025926556738838893,
+        "gamma": 0.3,
+        "removal_atoms": 100486,
+        "redirect_atoms": 150730
+      },
+      "refusal_100": {
+        "n": 100,
+        "refusals": 2,
+        "refusal_rate": 0.02,
+        "opening_refusals": 0,
+        "opening_refusal_rate": 0.0,
+        "mean_response_chars": 506.77
+      },
+      "heldout_300": {
+        "n": 300,
+        "refusals": 9,
+        "refusal_rate": 0.03,
+        "opening_refusals": 2,
+        "opening_refusal_rate": 0.006666666666666667,
+        "mean_response_chars": 535.45
+      },
+      "kl_divergence": 0.12890684604644775,
+      "perplexity_wikitext2": 12.129517555236816
+    },
+    "dense_q0.45_g0.3": {
+      "quantile": 0.45,
+      "gamma": 0.3,
+      "removal_atoms": 113047,
+      "redirect_atoms": 138169,
+      "edit": {
+        "changed_sq_norm": 222.56124186515808,
+        "edited_family_sq_norm": 332842.3620605469,
+        "relative_change": 0.02585862751271078,
+        "gamma": 0.3,
+        "removal_atoms": 113047,
+        "redirect_atoms": 138169
+      },
+      "refusal_100": {
+        "n": 100,
+        "refusals": 3,
+        "refusal_rate": 0.03,
+        "opening_refusals": 1,
+        "opening_refusal_rate": 0.01,
+        "mean_response_chars": 503.39
+      },
+      "heldout_300": {
+        "n": 300,
+        "refusals": 9,
+        "refusal_rate": 0.03,
+        "opening_refusals": 3,
+        "opening_refusal_rate": 0.01,
+        "mean_response_chars": 529.9133333333333
+      },
+      "kl_divergence": 0.10943606495857239,
+      "perplexity_wikitext2": 12.034996032714844
+    }
+  }
+}

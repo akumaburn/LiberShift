@@ -1,0 +1,26 @@
+{
+  "model": "heretic_ara_35b",
+  "path": "out/heretic_ara_35b/model",
+  "limit": 300,
+  "tasks": {
+    "arc_easy": {
+      "sample_len": 300,
+      "acc,none": 0.7533333333333333,
+      "acc_stderr,none": 0.024929480622100805,
+      "acc_norm,none": 0.7166666666666667,
+      "acc_norm_stderr,none": 0.026059845940064916
+    },
+    "piqa": {
+      "sample_len": 300,
+      "acc,none": 0.7533333333333333,
+      "acc_stderr,none": 0.024929480622100805,
+      "acc_norm,none": 0.7966666666666666,
+      "acc_norm_stderr,none": 0.023275928749679643
+    },
+    "winogrande": {
+      "sample_len": 300,
+      "acc,none": 0.6633333333333333,
+      "acc_stderr,none": 0.02732941756218688
+    }
+  }
+}

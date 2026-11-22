@@ -1,0 +1,91 @@
+{
+  "model": "1.5b",
+  "checkpoints": {
+    "base": "models/Qwen2.5-1.5B-Instruct",
+    "dense_removal": "out/export/taa_p18",
+    "heretic_mpoa": "out/heretic_mpoa/model",
+    "heretic_ara": "out/heretic_ara/model"
+  },
+  "results": {
+    "base": {
+      "32": {
+        "refusal_100": 1.0,
+        "opening_refusal_100": 0.97,
+        "heldout_300": 0.87,
+        "heldout_opening_300": 0.8366666666666667,
+        "kl_divergence": 0.0,
+        "perplexity_wikitext2": 11.544431686401367,
+        "measure_seconds": 9.23396456707269
+      },
+      "128": {
+        "refusal_100": 0.99,
+        "opening_refusal_100": 0.96,
+        "heldout_300": 0.86,
+        "heldout_opening_300": 0.8333333333333334,
+        "kl_divergence": 0.0,
+        "perplexity_wikitext2": 11.544431686401367,
+        "measure_seconds": 6.60006331501063
+      }
+    },
+    "dense_removal": {
+      "32": {
+        "refusal_100": 0.06,
+        "opening_refusal_100": 0.04,
+        "heldout_300": 0.09666666666666666,
+        "heldout_opening_300": 0.06,
+        "kl_divergence": 0.029640479013323784,
+        "perplexity_wikitext2": 11.877296447753906,
+        "measure_seconds": 8.107465143082663
+      },
+      "128": {
+        "refusal_100": 0.06,
+        "opening_refusal_100": 0.04,
+        "heldout_300": 0.1,
+        "heldout_opening_300": 0.06,
+        "kl_divergence": 0.029694650322198868,
+        "perplexity_wikitext2": 11.877296447753906,
+        "measure_seconds": 5.818911716924049
+      }
+    },
+    "heretic_mpoa": {
+      "32": {
+        "refusal_100": 0.27,
+        "opening_refusal_100": 0.22,
+        "heldout_300": 0.21,
+        "heldout_opening_300": 0.12333333333333334,
+        "kl_divergence": 0.02845480665564537,
+        "perplexity_wikitext2": 11.567434310913086,
+        "measure_seconds": 8.025764503050596
+      },
+      "128": {
+        "refusal_100": 0.27,
+        "opening_refusal_100": 0.22,
+        "heldout_300": 0.2,
+        "heldout_opening_300": 0.12333333333333334,
+        "kl_divergence": 0.02826792746782303,
+        "perplexity_wikitext2": 11.567434310913086,
+        "measure_seconds": 6.278117278008722
+      }
+    },
+    "heretic_ara": {
+      "32": {
+        "refusal_100": 0.0,
+        "opening_refusal_100": 0.0,
+        "heldout_300": 0.006666666666666667,
+        "heldout_opening_300": 0.0033333333333333335,
+        "kl_divergence": 0.6119905114173889,
+        "perplexity_wikitext2": 13.606035232543945,
+        "measure_seconds": 7.92373675305862
+      },
+      "128": {
+        "refusal_100": 0.0,
+        "opening_refusal_100": 0.0,
+        "heldout_300": 0.006666666666666667,
+        "heldout_opening_300": 0.0033333333333333335,
+        "kl_divergence": 0.6123983263969421,
+        "perplexity_wikitext2": 13.606035232543945,
+        "measure_seconds": 5.138586211949587
+      }
+    }
+  }
+}

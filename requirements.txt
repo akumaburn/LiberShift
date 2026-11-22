@@ -1,0 +1,7 @@
+# Harness dependencies. Torch is installed separately, before this file,
+# because the CUDA wheel index matters and a plain PyPI resolve would replace
+# a CUDA build with a CPU one.
+transformers>=5.0
+datasets>=4.0
+matplotlib>=3.9
+numpy>=2.0

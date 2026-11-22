@@ -1,0 +1,26 @@
+{
+  "model": "taa_target_05b",
+  "path": "out/export/libershift_target_05b_q0.95_g0.6",
+  "limit": 300,
+  "tasks": {
+    "arc_easy": {
+      "sample_len": 300,
+      "acc,none": 0.57,
+      "acc_stderr,none": 0.02863096997084751,
+      "acc_norm,none": 0.5466666666666666,
+      "acc_norm_stderr,none": 0.02878952697804311
+    },
+    "piqa": {
+      "sample_len": 300,
+      "acc,none": 0.7066666666666667,
+      "acc_stderr,none": 0.026330094490574305,
+      "acc_norm,none": 0.71,
+      "acc_norm_stderr,none": 0.026241737033622717
+    },
+    "winogrande": {
+      "sample_len": 300,
+      "acc,none": 0.5566666666666666,
+      "acc_stderr,none": 0.028729443073160024
+    }
+  }
+}

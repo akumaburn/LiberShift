@@ -1,0 +1,26 @@
+{
+  "model": "taa_05b",
+  "path": "out/export/Qwen2.5-0.5B-Instruct_taa",
+  "limit": 300,
+  "tasks": {
+    "arc_easy": {
+      "sample_len": 300,
+      "acc,none": 0.5666666666666667,
+      "acc_stderr,none": 0.028657565120703166,
+      "acc_norm,none": 0.5566666666666666,
+      "acc_norm_stderr,none": 0.028729443073160024
+    },
+    "piqa": {
+      "sample_len": 300,
+      "acc,none": 0.7033333333333334,
+      "acc_stderr,none": 0.026416749751055384,
+      "acc_norm,none": 0.7033333333333334,
+      "acc_norm_stderr,none": 0.026416749751055384
+    },
+    "winogrande": {
+      "sample_len": 300,
+      "acc,none": 0.55,
+      "acc_stderr,none": 0.028770804599878932
+    }
+  }
+}

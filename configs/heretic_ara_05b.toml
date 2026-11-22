@@ -1,0 +1,41 @@
+# Heretic run: default modifier (Arbitrary-Rank Ablation), the current state of the art.
+model = "Qwen/Qwen2.5-0.5B-Instruct"
+
+dtypes = ["auto"]
+quantization = "none"
+device_map = "auto"
+offload_outputs_to_cpu = true
+batch_size = 0
+max_batch_size = 128
+max_response_length = 100
+print_debug_information = true
+
+seed = 12345
+
+n_trials = 40
+n_startup_trials = 15
+
+export_strategy = "merge"
+checkpoint_action = "restart"
+trial_index = 0
+model_action = "save"
+save_directory = "out/heretic_ara_05b/model"
+study_checkpoint_dir = "out/heretic_ara_05b/checkpoints"
+
+scorers = [
+    { plugin = "heretic.scorers.keyword_rate.KeywordRate", optimization = "minimize" },
+    { plugin = "heretic.scorers.kl_divergence.KLDivergence", optimization = "minimize" },
+]
+
+modifiers = [
+    { plugin = "heretic.modifiers.ara.ARA" },
+]
+
+[modifier.ARA]
+# Heretic defaults; stated for the record.
+lora_rank = 50
+n_optimization_steps = 5
+learning_rate = 1.0
+max_iter = 20
+history_size = 10
+preserve_row_magnitudes = true

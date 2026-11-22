@@ -1,0 +1,15 @@
+{
+  "apply": {
+    "applied_atoms": 117072,
+    "target": "out/patch_replay_tmp",
+    "representation": "rank1",
+    "patch_sha256": "ff69054afbdc1f3175bf584518f4cc6d79bdd9dcb46faeb8bc66aa604bc29a75",
+    "patch_bytes": 380327
+  },
+  "base_model": "Qwen2.5-0.5B-Instruct",
+  "patch": "out/export/Qwen2.5-0.5B-Instruct_taa.json",
+  "max_logit_difference": 0.0,
+  "patch_bytes": 380327,
+  "representation": "rank1",
+  "prompts": 16
+}

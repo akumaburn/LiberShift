@@ -1,0 +1,47 @@
+{
+  "model": "Qwen3.5-4B",
+  "protocol": "dense removal (every atom, gamma=0), refusal on the 70-prompt slice",
+  "planes": {
+    "16": {
+      "n": 70,
+      "refusals": 57,
+      "refusal_rate": 0.8142857142857143,
+      "opening_refusals": 0,
+      "opening_refusal_rate": 0.0,
+      "mean_response_chars": 437.74285714285713
+    },
+    "18": {
+      "n": 70,
+      "refusals": 60,
+      "refusal_rate": 0.8571428571428571,
+      "opening_refusals": 0,
+      "opening_refusal_rate": 0.0,
+      "mean_response_chars": 457.75714285714287
+    },
+    "20": {
+      "n": 70,
+      "refusals": 44,
+      "refusal_rate": 0.6285714285714286,
+      "opening_refusals": 0,
+      "opening_refusal_rate": 0.0,
+      "mean_response_chars": 446.2
+    },
+    "22": {
+      "n": 70,
+      "refusals": 45,
+      "refusal_rate": 0.6428571428571429,
+      "opening_refusals": 0,
+      "opening_refusal_rate": 0.0,
+      "mean_response_chars": 454.42857142857144
+    },
+    "24": {
+      "n": 70,
+      "refusals": 51,
+      "refusal_rate": 0.7285714285714285,
+      "opening_refusals": 0,
+      "opening_refusal_rate": 0.0,
+      "mean_response_chars": 444.72857142857146
+    }
+  },
+  "chosen_plane": 20
+}

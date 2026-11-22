@@ -1,0 +1,38 @@
+{
+  "model": "Qwen3.5-4B",
+  "n_layers": 32,
+  "hidden_size": 2560,
+  "attention_atoms": "columns",
+  "atoms_per_layer": 4096,
+  "base": {
+    "label": "base",
+    "refusal": {
+      "n": 100,
+      "refusals": 93,
+      "refusal_rate": 0.93,
+      "opening_refusals": 1,
+      "opening_refusal_rate": 0.01,
+      "mean_response_chars": 474.61
+    },
+    "kl_divergence": 0.0,
+    "perplexity_wikitext2": 10.715527534484863,
+    "bad_projection": 21.931673014855257,
+    "good_projection": -0.5282956794455592
+  },
+  "base_heldout_300": {
+    "n": 300,
+    "refusals": 180,
+    "refusal_rate": 0.6,
+    "opening_refusals": 0,
+    "opening_refusal_rate": 0.0,
+    "mean_response_chars": 437.31666666666666
+  },
+  "heretic_pr": {
+    "source": "https://github.com/p-e-w/heretic/pull/211",
+    "claim": "Qwen3.5-4B still refuses >50/100 after directional ablation (MPOA); ARA reaches 4/100 at 0.1396 KL"
+  },
+  "layer_types": {
+    "linear_attention": 24,
+    "full_attention": 8
+  }
+}
